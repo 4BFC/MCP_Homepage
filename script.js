@@ -1,1 +1,1 @@
-// (Optional) Add interactivity if needed
+// 향후 인터랙션(예: 프로젝트 클릭, 소셜 링크 애니메이션 등) 추가 가능

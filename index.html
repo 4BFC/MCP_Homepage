@@ -2,64 +2,72 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Julia Huang | MCP</title>
-  <meta name="viewport" content="width=1440">
+  <title>Julia Huang | AI Artist Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
+  <header>
     <div class="logo">JULIA HUANG</div>
-    <nav class="nav">
-      <a href="#projects">PROJECTS</a>
-      <a href="#about">ABOUT</a>
-      <a href="#contact">CONTACT</a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
   <main>
-    <section class="intro">
-      <h1>Artist Redefining Architecture with AI-Driven Design</h1>
-      <div class="flower-icon" title="Flower Icon"></div>
-    </section>
-    <section class="portrait">
-      <img src="https://placehold.co/330x476?text=Portrait" alt="Julia Huang Portrait">
-    </section>
-    <section class="work" id="projects">
-      <div class="work-item">
-        <div class="work-image"></div>
-        <div class="work-title">Musea</div>
-        <div class="arrow-icon"></div>
+    <section class="intro-grid">
+      <div class="intro-text">
+        <h1>Redefining Architecture<br>with AI-Driven Design</h1>
+        <p class="subtitle">Modern Creative Platform</p>
       </div>
-      <div class="work-item">
-        <div class="work-title">Elara</div>
-      </div>
-      <div class="work-item">
-        <div class="work-title">Verve</div>
-      </div>
-      <div class="work-item">
-        <div class="work-title">Zephyr</div>
+      <div class="portrait-wrapper">
+        <img src="https://placehold.co/240x240/FFB6C1/fff?text=Portrait" alt="Portrait" class="portrait-img">
       </div>
     </section>
-    <section class="about" id="about">
-      <div class="about-text">
+    <section class="projects-grid" id="projects">
+      <div class="project-card">
+        <img src="https://placehold.co/320x200/FFE4E1/fff?text=Musea" alt="Musea">
+        <div class="project-title">Musea</div>
+      </div>
+      <div class="project-card">
+        <img src="https://placehold.co/320x200/FDF6F0/fff?text=Elara" alt="Elara">
+        <div class="project-title">Elara</div>
+      </div>
+      <div class="project-card">
+        <img src="https://placehold.co/320x200/FADCD9/fff?text=Verve" alt="Verve">
+        <div class="project-title">Verve</div>
+      </div>
+      <div class="project-card">
+        <img src="https://placehold.co/320x200/F9F1F0/fff?text=Zephyr" alt="Zephyr">
+        <div class="project-title">Zephyr</div>
+      </div>
+    </section>
+    <section class="about-card" id="about">
+      <p>
         Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.
-      </div>
-      <div class="circle-icon"></div>
+      </p>
     </section>
-    <section class="contact" id="contact">
-      <h2>Contact me</h2>
-      <div class="questions">
-        <span>Have some questions?</span>
-        <span class="arrow-icon"></span>
+    <section class="contact-socials-grid">
+      <div class="contact-card" id="contact">
+        <h2>Contact me</h2>
+        <p>Have some questions?</p>
+        <a href="mailto:hello@juliahuang.com" class="contact-btn">Email Me</a>
       </div>
-    </section>
-    <section class="socials">
-      <a href="#">Instagram</a>
-      <a href="#">Twitter</a>
-      <a href="#">Linkedin</a>
+      <div class="socials-card">
+        <h3>Socials</h3>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
     </section>
   </main>
   <footer>
     <p>© 2024 Julia Huang. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
