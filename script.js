@@ -1,3 +1,1 @@
-document.getElementById('get-started').onclick = function() {
-  alert('Get Started Clicked!');
-};
+// (Optional) Add interactivity if needed
